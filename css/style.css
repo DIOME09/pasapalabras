@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700");
 @import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
 :root{
   --fn-family: 'Rammetto One', cursive;
 }
@@ -14,7 +15,7 @@ body{
   left: 0;
 }
 .hero {
-  background-color: #18ced1;
+  background-color: #0be1f9;
   position: relative;
   height: 100vh;
   overflow: hidden;
@@ -35,10 +36,10 @@ body{
 .cube {
   position: absolute;
   top: 80vh;
-  left: 45vw;
-  width: 10px;
+  left: 75vw;
+  width: 80px;
   height: 10px;
-  border: solid 1px #0c4e80;
+  border: solid 1px #0c0f12;
   -webkit-transform-origin: top left;
           transform-origin: top left;
   -webkit-transform: scale(0) rotate(0deg) translate(-50%, -50%);
@@ -47,7 +48,7 @@ body{
           animation: cube 12s ease-in forwards infinite;
 }
 .cube:nth-child(2n) {
-  border-color: #1c5683;
+  border-color: #0d090b;
 }
 .cube:nth-child(2) {
   -webkit-animation-delay: 2s;
@@ -123,7 +124,7 @@ body{
   max-width: 700px;
   margin: 50px auto;
   text-align: center;
-  background: rgba(255, 255, 255, 0.645);
+  background: rgba(243, 243, 23, 0.645);
   padding: 30px;
   border: 2px solid rgb(40, 37, 37);
   border-radius: 20px;
@@ -147,10 +148,10 @@ body{
 #pantalla-inicial h1{
   font-family: var(--fn-family);
   font-size: 50px;
-  color: #0c4e80;
+  color: #060708;
 }
 button{
-  background: rgba(113, 215, 79, 0.923);
+  background: rgba(231, 14, 231, 0.923);
   border: none;
   color: #fff;
   font-weight: bold;
@@ -188,7 +189,7 @@ button{
 
 /*? Esta clse se agrega dinamicamente cuando haya respondido  correctamente una pregunta  */
 .bien-respondida{
-  background-color: rgb(72, 225, 143) !important;
+  background-color: rgb(241, 21, 234) !important;
   color: antiquewhite !important;
 }
 
